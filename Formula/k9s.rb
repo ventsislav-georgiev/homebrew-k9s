@@ -10,7 +10,7 @@ class K9s < Formula
   on_macos do
     on_arm do
       url "https://github.com/ventsislav-georgiev/k9s/releases/download/v0.50.18-custom.5/k9s_Darwin_arm64.tar.gz"
-      sha256 "6202f46ea68e16ab2dc102492446cce0d3b91af092a18fd01cfc2a5c8ae6dcba"
+      sha256 "ba51c6487fa14255b287c54f6959908b2673d470c951eee2f56b127460dbee47"
 
       def install
         bin.install "k9s"
